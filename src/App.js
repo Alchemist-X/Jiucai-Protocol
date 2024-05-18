@@ -18,21 +18,35 @@ function App() {
   const [participants, setParticipants] = useState(['Participant 1', 'Participant 2', 'Participant 3']);
   const [winners, setWinners] = useState(['Winner 1', 'Winner 2', 'Winner 3']);
   const [contract, setContract] = useState(null);
+  
+  const fetchPotSize = async () => {
+    if (contract) {
+      try {
+        const potSize = await contract.getPrizePool();
+        setPotSize(ethers.utils.formatEther(potSize));
+      } catch (error) {
+        console.error('Error fetching pot size:', error);
+      }
+    }
+  };
 
   useEffect(() => {
-    const fetchPotSize = async () => {
-      if (contract) {
-        try {
-          const potSize = await contract.getPrizePool();
-          setPotSize(ethers.utils.formatEther(potSize));
-          //setPotSize(potSize);
-        } catch (error) {
-          console.error('Error fetching pot size:', error);
-        }
-      }
-    };
     fetchPotSize();
   }, [contract]);
+
+  // useEffect(() => {
+  //   const fetchPotSize = async () => {
+  //     if (contract) {
+  //       try {
+  //         const potSize = await contract.getPrizePool();
+  //         setPotSize(ethers.utils.formatEther(potSize));
+  //       } catch (error) {
+  //         console.error('Error fetching pot size:', error);
+  //       }
+  //     }
+  //   };
+  //   fetchPotSize();
+  // }, [contract]);
 
   return (
     <div className="bg-gray-100 text-gray-900 min-h-screen flex items-center justify-center relative">
@@ -48,7 +62,7 @@ function App() {
         </div>
         <div className="flex justify-between mb-4">
           <Amount />
-          <Bet contract={contract} referral={referral} />
+          <Bet contract={contract} referral={referral} fetchPotSize={fetchPotSize}/>
         </div>
         <div className="text-center mb-4">
           <Referral referral={referral} setReferral={setReferral} />
