@@ -3,7 +3,9 @@
 
 ## Project Overview
 
-This project is a React-based web application that simulates a betting interface. The application includes dynamic components for displaying pot size, rules, betting amounts, referral codes, participants list, and history of winners. The project utilizes Tailwind CSS for styling and leverages state management to handle dynamic data updates.
+Jiucai Protocol 是一个链上即开型彩票协议，拥有推广返点和自动开奖机制，确保流程公平透明，有望实现裂变增长
+
+<img width="410" alt="截屏2024-05-18 21 26 25" src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/00359995-b1fa-407b-a154-a577bc670e7e">
 
 ## Features
 
@@ -60,16 +62,10 @@ Each component is designed to update dynamically based on the state managed by R
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Chief Contract Officer 首席合约官 @Willy_Qiu
+Chief Pie Officer 首席画饼师傅 🫓 + 些许前端 @Alchemist-X
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some feature'`)
-5. Push to the branch (`git push origin feature-branch`)
-6. Open a Pull Request
 
-## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 ```
