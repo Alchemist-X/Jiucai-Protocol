@@ -5,7 +5,9 @@
 
 Jiucai Protocol 是一个链上即开型彩票协议，拥有推广返点和自动开奖机制，确保流程公平透明，有望实现裂变增长
 
-<img width="410" alt="截屏2024-05-18 21 26 25" src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/00359995-b1fa-407b-a154-a577bc670e7e">
+![bet1](https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/8a9a1ffc-c0d2-4bd3-9aee-64a5e62d0125)
+![Potttt](https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/f9a820cb-ceb4-4f4b-afa3-d0b40cfa1211)
+![refer-to-earn](https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/679b77ae-e2b3-4ca2-aa6e-945162f970b6)
 
 ## Features
 
@@ -65,6 +67,7 @@ Each component is designed to update dynamically based on the state managed by R
 Chief Contract Officer 首席合约官 @Willy_Qiu
 Chief Pie Officer 首席画饼师傅 🫓 + 些许前端 @Alchemist-X
 
+<img width="410" alt="截屏2024-05-18 21 26 25" src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/00359995-b1fa-407b-a154-a577bc670e7e">
 
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
