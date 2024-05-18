@@ -5,9 +5,11 @@
 
 Jiucai Protocol 是一个链上即开型彩票协议，拥有推广返点和自动开奖机制，确保流程公平透明，有望实现裂变增长
 
-![bet1](https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/8a9a1ffc-c0d2-4bd3-9aee-64a5e62d0125)
-![Potttt](https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/f9a820cb-ceb4-4f4b-afa3-d0b40cfa1211)
-![refer-to-earn](https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/679b77ae-e2b3-4ca2-aa6e-945162f970b6)
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/8a9a1ffc-c0d2-4bd3-9aee-64a5e62d0125" alt="bet1" style="width: 30%;"/>
+  <img src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/f9a820cb-ceb4-4f4b-afa3-d0b40cfa1211" alt="Potttt" style="width: 30%;"/>
+  <img src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/679b77ae-e2b3-4ca2-aa6e-945162f970b6" alt="refer-to-earn" style="width: 30%;"/>
+</div>
 
 ## Features
 
