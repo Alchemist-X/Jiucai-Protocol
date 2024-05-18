@@ -1,7 +1,7 @@
 import React from 'react';
 import { ethers } from 'ethers';
 
-const Bet = ({ contract, referral }) => {
+const Bet = ({ contract, referral, fetchPotSize }) => {
   const handleBet = async () => {
     const referrer = referral || ethers.constants.AddressZero;
     const betAmount = ethers.utils.parseEther("0.0000996"); // 确保金额与合约中的 betAmount 一致
@@ -11,6 +11,7 @@ const Bet = ({ contract, referral }) => {
         const tx = await contract.placeBet(referrer, { value: betAmount });
         await tx.wait();
         console.log('Bet placed:', tx);
+        fetchPotSize();
       } catch (error) {
         console.error('Error placing bet:', error);
       }

@@ -16,7 +16,7 @@ const Referral = ({ referral, setReferral }) => {
         className="w-full mt-2 p-2 border rounded"
         value={referral}
         onChange={handleChange}
-        placeholder="Enter referral code (up to 6 words)"
+        placeholder="Enter referral address"
       />
     </div>
   );
