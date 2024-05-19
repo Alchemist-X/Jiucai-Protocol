@@ -42,6 +42,33 @@ To set up this project locally, follow these steps:
 
    This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
+
+# ETH Beijing 2024
+
+## 黑客松目标
+
+- 1. 开发合约代码，实现有互操作性的链上彩票协议
+- 2. 构建本地测试所需的最低前端代码，使用React框架
+- 3. 封装测试，在区块链浏览器上观测奖池分配、推广返佣正常进行
+ 
+## Demo 录制链接
+
+https://www.loom.com/share/f2bc9628a3644e62af90047977c2c05d
+
+<p align="center">
+  <img src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/746986e7-bcd8-4e9b-a51d-e208ecaa75e1" width="19%" />
+  <img src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/f7d72c60-d1ef-48a3-9ec6-5506625ba5fa" width="19%" />
+  <img src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/def18863-bcfb-476b-9692-3285ab774c8f" width="19%" />
+  <img src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/cda3862e-8119-4e92-9201-d19bcde1dbeb" width="19%" />
+  <img src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/c77d3ab5-ca5d-4938-a876-3669c5a49211" width="19%" />
+</p>
+
+### 测试合约、钱包地址
+
+- 合约: https://sepolia.scrollscan.com/address/0xfcfacfd6306cb71d2979dc54dd6d3f7595c5af01
+- 钱包： https://sepolia.scrollscan.com/address/0xeB2b89A90D01B134268CA307F1b477086AEb989a
+
+
 # 用户说明书
 
 ## 用户下注
