@@ -53,9 +53,9 @@ To set up this project locally, follow these steps:
 
 ## 黑客松目标
 
-- 1. 开发合约代码，实现有互操作性的链上彩票协议
-- 2. 构建本地测试所需的最低前端代码，使用React框架
-- 3. 封装测试，在区块链浏览器上观测奖池分配、推广返佣正常进行
+- 开发合约代码，实现有互操作性的链上彩票协议
+- 构建本地测试所需的最低前端代码，使用React框架
+- 封装测试，在区块链浏览器上观测奖池分配、推广返佣正常进行
  
 ## Demo 录制链接
 
@@ -70,6 +70,7 @@ https://www.loom.com/share/f2bc9628a3644e62af90047977c2c05d
       <p>投注界面</p>
     </td>
   </tr>
+  
   <tr>
     <td>
       <img src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/f7d72c60-d1ef-48a3-9ec6-5506625ba5fa" width="600" />
@@ -78,6 +79,7 @@ https://www.loom.com/share/f2bc9628a3644e62af90047977c2c05d
       <p>下注签名</p>
     </td>
   </tr>
+  
   <tr>
     <td>
       <img src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/def18863-bcfb-476b-9692-3285ab774c8f" width="600" />
@@ -86,6 +88,7 @@ https://www.loom.com/share/f2bc9628a3644e62af90047977c2c05d
       <p>控制台输出信息</p>
     </td>
   </tr>
+  
   <tr>
     <td>
       <img src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/cda3862e-8119-4e92-9201-d19bcde1dbeb" width="600" />
@@ -94,6 +97,7 @@ https://www.loom.com/share/f2bc9628a3644e62af90047977c2c05d
       <p>合约地址｜交互记录</p>
     </td>
   </tr>
+  
   <tr>
     <td>
       <img src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/c77d3ab5-ca5d-4938-a876-3669c5a49211" width="600" />
@@ -107,8 +111,8 @@ https://www.loom.com/share/f2bc9628a3644e62af90047977c2c05d
 
 ### 测试合约、钱包地址
 
-- 合约: https://sepolia.scrollscan.com/address/0xfcfacfd6306cb71d2979dc54dd6d3f7595c5af01
-- 钱包： https://sepolia.scrollscan.com/address/0xeB2b89A90D01B134268CA307F1b477086AEb989a
+- 合约 https://sepolia.scrollscan.com/address/0xfcfacfd6306cb71d2979dc54dd6d3f7595c5af01
+- 钱包 https://sepolia.scrollscan.com/address/0xeB2b89A90D01B134268CA307F1b477086AEb989a
 
 
 # 用户说明书
@@ -129,7 +133,7 @@ https://www.loom.com/share/f2bc9628a3644e62af90047977c2c05d
 
 根据逻辑实现难度、波动性（标准差）不同有多种方案，产品实际上线后会主推 1-2 种，并推流所有彩票，实施项目间赛马，观察增长数据。
 
-### 004号 Daily 3 彩票 （一个更加完整的设计，Demo部分模拟
+### 004号 Daily 3 彩票 （一个更加完整的设计，Demo部分仅展示6注的情况
 
 - **EV** = -5% (0.498$)
 - **奖池构成**: 总奖池 = 玩家总投注金额 - 平台手续费（up to 2%）- 推广奖励金（可无，up to 3%）- 链上交易手续费 + 基金会特别拨款（充实总奖池，up to 3%）
@@ -144,8 +148,8 @@ https://www.loom.com/share/f2bc9628a3644e62af90047977c2c05d
 | ---- | ---- | ---- | ---------- |
 | 特等奖 | 0.1e | 3 | 333 |
 | 一等奖 | 0.01e | 20 | 50 |
-| 二等奖 | 0.0002$ | 100 | 10 |
-| 安慰奖 | 0.00009848$ | 250 | 4 |
+| 二等奖 | 0.0002e | 100 | 10 |
+| 安慰奖 | 0.00009848e | 250 | 4 |
 | 谢谢惠顾！ | 0$ | 673 | 1.59 |
 
 
