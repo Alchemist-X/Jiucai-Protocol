@@ -1,10 +1,11 @@
 
-# Jiucai Protocol 🥬 AKA 韭菜协议 See Chinese version in README_CN.md
+# Jiucai Protocol 🥬 AKA 韭菜协议 
 
 ## Project Overview
 
 Jiucai Protocol is an on-chain instant lottery system with referral rewards and an automated drawing mechanism. It ensures fairness and transparency while enabling viral growth.
 - Rules 1. Bet 2. Wait for lottery draw 3. Refer to Earn
+- See Chinese version in README_CN.md
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/Alchemist-X/Jiucai-Protocol/assets/55140230/8a9a1ffc-c0d2-4bd3-9aee-64a5e62d0125" alt="bet1" style="width: 30%;"/>
@@ -163,6 +164,7 @@ Winning numbers are randomly selected, and each number **can only win once**.
 | Consolation Prize | 0.00009848 ETH | 250 | 4 |
 | No Prize | 0 ETH | 673 | 1.59 |
 
+
 ## Upcoming Features
 
 - **Frontend Animation**: Large and small balls collide, some get eliminated (indicating liquidation), and the remaining balls **represent prize pool consolidation** for winners.  
@@ -213,4 +215,8 @@ Winning numbers are randomly selected, and each number **can only win once**.
 - **referralReward**: Commission earned from referring players.  
 - **firstLevelReward**: **2.5%** commission from direct referrals' bets.  
 - **secondLevelReward**: **0.5%** commission from indirect referrals' bets.  
-- **noReferrer**: If no referral code is used, **all funds go directly to the prize pool**.  
+- **noReferrer**: If no referral code is used, **all funds go directly to the prize pool**.
+
+
+![Payout Structure - Winner Distribution](https://github.com/user-attachments/assets/a6499311-f2ac-4972-af04-285ac8dc16b6)
+![Payout Structure Chart](https://github.com/user-attachments/assets/ef09e6e7-4bf3-4a04-b4e2-da084de4ce32)
